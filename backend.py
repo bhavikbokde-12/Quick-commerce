@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 import random
 
-app = FastAPI(title="Velzzo AI Quick-Commerce Engine - CCE4")
+app = FastAPI(title="Blinkcart AI Quick-Commerce Engine - CCE4")
 
 ORDERS_DB = [
     {"order_id": "ORD-101", "customer": "Aman Pal", "items": "Amul Milk, Brown Bread", "location": [2, 3], "status": "Pending"},
